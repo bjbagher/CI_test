@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx serve",
-    "e2e": "cypress open"
+    "e2e": "cypress run --record --key 1a3e7e6f-5e16-4932-86e4-7c71e1955f1b"
   },
   "keywords": [],
   "author": "",
