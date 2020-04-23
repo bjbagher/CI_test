@@ -17,6 +17,6 @@ document.addEventListener("formdata", event => {
 
       request.onload = function() {
     const jsonResponse = JSON.parse(this.response);
-    // document.body.innerHTML += `Response from the server: ${jsonResponse.status}`;
+    document.body.innerHTML += `Response from the server: ${jsonResponse.status}`;
   };
 })
