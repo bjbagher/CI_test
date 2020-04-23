@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "npx serve",
     "e2e": "cypress open"
   },
   "keywords": [],
