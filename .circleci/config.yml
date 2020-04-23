@@ -18,5 +18,8 @@ orbs:
   cypress: cypress-io/cypress@1
 workflows:
   build:
+    steps:
+      - run: npm i
+      - run: npm start
     jobs:
       - cypress/run
