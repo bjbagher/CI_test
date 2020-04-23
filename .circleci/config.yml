@@ -13,14 +13,13 @@ version: 2.1
 # orbs:
 #   cypress: cypress-io/cypress@1
 workflows:
-  build:
+  jobs:    
     docker:
       - image: node
     steps:
         checkout
-    jobs:
       - cypress/install:
-          build: 'npm run build'  # run a custom app build step
+          build: 'npm run i'  # run a custom app build step
       - cypress/run:
           requires:
             - cypress/install
